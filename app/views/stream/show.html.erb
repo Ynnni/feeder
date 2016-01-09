@@ -1,0 +1,10 @@
+<h1>Stream</h1>
+
+<div id="messages">
+  <%= render @messages %>
+</div>
+
+<%= form_tag nil, { id: :speaker } do %>
+  <%= label_tag :message, :message %>
+  <%= text_field_tag :message %>
+<% end %>
