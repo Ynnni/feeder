@@ -1,24 +1,7 @@
-## README
+## Stream Chat
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example Stream Chat wrote via Rails 5 Beta Action Cable
 
-Things you may want to cover:
+[Action Cable](https://github.com/rails/rails/tree/master/actioncable) – Integrated WebSockets for Rails
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You must install [Redis](http://redis.io/) on standard 6379 port
